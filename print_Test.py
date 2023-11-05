@@ -1,6 +1,6 @@
 import timeit
 
-# f-string formatting
+# f-string formattingf
 f_string_time = timeit.timeit("f'number: {12345}'", number=1000000)
 
 # str.format() method
